@@ -1,0 +1,10 @@
+cxf:
+  path: /service
+
+server:
+  port: 9049
+  servlet:
+    context-path: "/soap"
+spring:
+  application:
+    name: cxf-soap-producer
